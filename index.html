@@ -13,46 +13,16 @@
     <h1 class="my-3 text-center">Relojes del mundo</h1>
     <hr>
     <div class="mt-5 container">
-        <div class="row justify-content-center">      
-            <label class="col-2" for="horaLocal">Hora local:</label>
+        <div class="row justify-content-around">      
+            <label class="col-2" for="horaLocal">Hora local <span id="local"></span></label>
             <input class="col-2 form-control text-center"
                    id="horaLocal" type="text" readonly>
+            <label for="sel-ciudades" class="col-2">Elija una ciudad</label>
+            <select id="sel-ciudades" name="sel-ciudades" class="col-2 form-control">
+            </select>        
         </div>
 
         <div class="card-deck mt-5 text-center">
-            <div class="card">
-                <div class="card-header">
-                    <div class="row">
-                        <h2 id="titleHora1" class="card-title col-10">Paris</h2>
-                        <button class="btn btn-primary col-2">X</button>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p id="hora1" class="card-text text-center"></p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <div class="row">
-                        <h2 id="titleHora2" class="card-title col-10">Nueva York</h2>
-                        <button class="btn btn-primary col-2">X</button>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p id="hora2" class="card-text text-center"></p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <div class="row">
-                        <h2 id="titleHora3" class="card-title col-10">Tokio</h2>
-                        <button class="btn btn-primary col-2">X</button>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p id="hora3" class="card-text text-center"></p>
-                </div>
-            </div>
         </div>
     </div>
 

@@ -1,0 +1,5 @@
+[
+    {"zona":"Europe/Paris", "ciudad": "Paris"},
+    {"zona":"America/New_York", "ciudad": "Nueva York"},
+    {"zona":"Asia/Tokyo", "ciudad": "Tokio"}
+]
